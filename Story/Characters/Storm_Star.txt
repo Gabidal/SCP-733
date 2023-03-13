@@ -6,29 +6,50 @@ Height: 1.8m
 Weight: 71kg
 
 Description:
- With long black hair and dark blue eyes, Star comes from a farming family located east from the capital of Sea Empire.
- Her best friends are Thomas, Cynthia and Luke.
- Her favorite food is potato smash with carrots and rabbit.
+    With long black hair and dark blue eyes, Star comes from a farming family located east from the capital of Sea Empire.
+    Her best friends are Thomas, Cynthia and Luke. Her favorite food is potato smash with carrots and rabbit.
+    Star admires history of Empire of Ocean, especially the mysterious disappearance of the whole opposing kingdom of the desert dwellers.
+    She is a very friendly person, and is always willing to help others, a very good cook, and is always willing to share her food with others, a very good fighter, and is always willing to fight for the weak.
+    Although this good willing of her heart makes her vulnerable to the scheming lot.  
+    She lost her most dearest friends on the battle field when the undead king attacked her home land. She also lost her family who couldn't escape the hunt-dogs.
+    After losing all that is dear to her, she started to think why was what she was, and why all of it had to happen on her lifetime and someones elses.
+    Sometime after loosing everything she met a young boy with a long black scarf, he kept Star some company and even taught her to hone her sword skills even further by meeting someone. 
 
-Status at the Colosseum:
- - She uses a long heavy flat sword, two handed.
- - Her strength is adequate to lift a 5x5m boulder.
- - Better than normal human smell sense, hearing which gives her a blurry night vision for 10m radius.
- - Above human average acceleration of 0.5m/s.
- - Non-existing magical casting abilities.
- - She uses a light armour pieces on her right shoulder, waist, and knees.
- - Sword mastery level: 3-B
+LOG:
+    Status at the Colosseum:
+        - She uses a long heavy flat sword, two handed.
+        - Her strength is adequate to lift a 5x5m boulder.
+        - Better than normal human smell sense and hearing which gives her a blurry scan vision for 10m radius.
+        - Above human average acceleration of 5.2m/s.
+        - Non-existing magical casting abilities.
+        - She uses a light armour pieces on her right shoulder, waist, and knees.
+        - Sword mastery level: 8-A
 
+    Status as the Adamantite Adventurer:
+        - She uses a long heavy flat sword, two handed or one handed.
+        - Her strength is adequate to lift a 10x10m boulder.
+        - Better than normal human smell sense and hearing which gives her a somewhat clear vision for 100m radius.
+        - Above human average acceleration of 56.7m/s.
+        - novice magical casting abilities, mainly for healing.
+        - She uses an pitch black full body armour with a mix of white rope robes. Her armour is enchanted with magic resistance with the level of 7-E. 
+        - Sword mastery level: 7-D, which is already above normal human capabilities, whereas human sword mastery usually caps at the 7-F rank.
 
-Status as the Adamantite Adventurer:
- - 
+    Status after the training with scarf boy:
+        - Same weapon.
+        - Her strength is adequate to lift a 100x100m lead cube.
+        - Sense of smell with the radius of 245.8m containing clear vision.
+        - Clear Hearing radius of 487m containing clear vision.
+        - Superhuman acceleration of 89.1m/s.
+        - Able to thrust her sword at mach 1.5 speed. 
+        - She uses an black cape like, with only covering her underwear places with a white rope like robes. 
+        - Sword mastery level: 7-S
 
-Superhuman attributes: 
- - Immortal to all damage made by skills or weapons that are below level 6.
- - Sense of smell with the radius of 1km containing clear vision.
- - 10x Hearing of an wolf.
- - Can accelerate her body to 100km in only 0.01s
- - Regeneration of 10kg/s of taken damage.
- - Without armour she can take 10 kilotons of TNT at point blank.
- -  
+    Status after making contract with ElectriCity: 
+        - Immortal to all damage made by skills or weapons that are below level 6. This also means that she doesn't age past the age when she made the contract (25 years).
+        - Hear and Sense of smell with the radius of 1km containing clear vision.
+        - Acceleration of 1.2km/s.
+        - Regeneration of 10kg/s of taken damage. Where the kg/s means how much mass she is able to regenerate after taking damage.
+        - Damage reduction level: 6-A, this means she can take 10 kilotons of TNT at point blank without any armour.
+        - Sword mastery level: 6-A, which is rival to Demigod mastery level.
+
 
