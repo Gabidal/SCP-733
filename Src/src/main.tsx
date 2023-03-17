@@ -47,7 +47,7 @@ export default function SCP() {
     );
 }
 
-function Terminal(Input){
+function Terminal(Input: any){
     return Input
 }
 
@@ -56,17 +56,17 @@ function Main(){
     const [Input_Text, Set_Input_Text] = React.useState("");
     const [Paragraph_Text, Set_Paragraph_Text] = React.useState("");
 
-    function Handle_Input(e) {
+    function Handle_Input(e: React.ChangeEvent<HTMLInputElement>) {
         Set_Input_Text(e.target.value);
     }
 
-    async function handleKeyDown(e) {
+    async function handleKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
         if (e.key === "Enter") {
             if (Input_Text.length <= 0){
                 return
             }
 
-            var elem = document.getElementById('PARAGRAPH');
+            var elem = document.getElementById('PARAGRAPH')!;
             elem.scrollTo({top: elem.scrollHeight});
 
             const Input_Text_With_New_Line = "\n" + Terminal(Input_Text)
@@ -97,7 +97,7 @@ function Main(){
     )
 }
 
-function Get_Button_Activation_Class(Page, prefer){
+function Get_Button_Activation_Class(Page: number, prefer: number){
     if (Page === prefer){
         return "Active";
     }
@@ -106,7 +106,7 @@ function Get_Button_Activation_Class(Page, prefer){
     }
 }
 
-function Post_Process_text(inputText) {
+function Post_Process_text(inputText: string) {
     const crossedOutWords = ['bad', 'wrong'];
     const underlinedWords = ['good', 'right'];
     const linkedWords = {
