@@ -1,6 +1,6 @@
 Average Joe, Andy common
-Test Paper
-Planet Earth
+Title: Test Paper
+Link: Planet Earth
 01.01.2001
 
 Lorem Lipsum...

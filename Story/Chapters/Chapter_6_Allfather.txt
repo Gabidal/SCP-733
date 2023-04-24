@@ -1,0 +1,80 @@
+Date: 1949 14'th of july, United Stated of America, Research lab located in New Mexico.
+Time: 04:00 AM
+
+Person A: "Ok, so all the parameters are in the expected range, can proceed to launch."
+*Voice in the radiophone*: "3, 2, 1 and Launch!"
+
+Somewhere close by an rocket prototype proceeds to take of.
+
+After a excruciatingly quiet moment, the radio voice continues:
+*Lift of was successful!*
+
+The team behind the voice seem to cheer up.
+Person B: "What did i say, we did it!"
+Person A: "Well not that was the easiest part, next: Sling-shotting through all the different orbiting bodies until we exit the gravitational presence of our star." 
+Person A: "Well at any case you can go grab drink with the other i'm gonna stay the night and watch over the orbital."
+Person B: "Ok, but don't kill your self now, after all we need you next week to held the press conference you know."
+Person A: "I just might be."
+
+Date: 1949 16'th of july
+Time: 09:00 AM
+
+Person A: "Alright what did i miss?"
+PCI: "Parameters in nomal range Sir."
+Person A: "Good, notify me of anything un-expected happens, ok?"
+PCI: "Understood."
+
+Date: 1949 20'th of july
+Time: 02:30 AM
+
+An alert was raised at the research lab waking the head researcher who was taking a all nigher again.
+*Red siren lights lighting the monitor room in dark red light*
+
+Person A: "PCI, report!"
+PCI: "Warning: Gamma rays anomal."
+Person A: "This should't be happening we haven't even came close to exiting the suns G-Sphere"
+Person A: "PCI log on coordinates!"
+PCI: "Sir my reading are giving me exactly: 9,223,372,036,854,775,807 Light years, which is the exact same as the maximum numbers i can hold on one constant."
+Person A: "Well yeah there is probably a collision with a space dust, and has broken the position system."
+Person A: "Switch to photon scan mode and analyze the star patters to determine the current location and give me a recap!"
+PCI: "Yes sir! Crunching numbers..."
+*After a loud silence*
+PCI: "Sir the light radar mapping system might be broken, since the stars are not aligned to the database."
+Person A: "Open visual UI"
+*After looking at the star map captured by the orbital*
+Person A: "..."
+Person A: "Send a light pulse straightly towards the orbital and count the ticks until the light has bounced back."
+PCI: "Calculating trajectory and reflections... sending light pulse"
+Person A: "Notify me when the pulse has bounced back!"
+PCI: "Will do Sir."
+
+Date: 1949 21'th of july
+Time: 04:00 PM
+
+Person B: "What do you mean by it is no where to be found? You got the the parameters from it not? Then how are you communicating with a unit if it isn't even there?"
+Person A: "Do you remember that one guy who was rambling about the entanglement stuff maybe this is that."
+Person B: "Oh again putting all the reasoning and blame on quantum physics are we?"
+Person B: "The man up, wants a memo on this ASAP, if he can't make an good impression on the conference tomorrow, this project is done for."
+
+Date: 1949 24'th of july, Chicago, basement
+Time: 01:00 AM
+
+PCI-Lite: "Sir!"
+Person A: "What i was having a great dream, first you take my job and now my sleep hours, huh!"
+PCI-Lite: "Sir, the light pulse has returned!"
+
+Person A, stares at the clock for a moment and then realizes what that means, and rushes to the monitor.
+Person A: "Crunch the numbers PCI!"
+PCI-Lite: "Sir the number is too large for 64-bit handling would you like me to use the new AVX system?"
+Person A: "Please do!"
+PCI-Lite: "Using the new AVX number handling system the Value is: 237,316,195,423,570,985,008,687,907,853,269,984,665,640,564,039,457,584,007,913,129,639,935"
+Person A: "..."
+Person A: "Ok, has the vessel moved since the last contact?"
+PCI-Lite: "Yes"
+Person A: "Initiate 3D scan of the surrounding area."
+PCI-Lite: "Will do... Here are the results Sir."
+Person A: "Transfer the rendered environment to the analytical unit and crunch some structural analysis."
+
+
+
+

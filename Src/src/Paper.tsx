@@ -2,21 +2,10 @@
 // For the ease of use for the user to create papers and store them into the SCP archive system, we will need to support different formats of paper.
 // When an paper is analyzed it is stored in a respective folder tree, where the folders are how the Archival system will later on find the respective paper.
 
+import { Allocate, Instance, Preserve } from "./Allocator";
 import { Find_Author } from "./Author";
 import { HEADER_SIZE } from "./DB";
 import { Logger } from "./Logger";
-
-
-export class Paper_Has_Author{
-    ID: number = 0;
-
-    Author_ID: number = 0;
-
-    constructor(paper_ID: number, author_ID: number){
-        this.ID = paper_ID;
-        this.Author_ID = author_ID;
-    }
-}
 
 export default class Paper{
     ID: number = 0;
@@ -27,13 +16,12 @@ export default class Paper{
     Date: Date = new Date();
     Location: string = "";
 
-    Lead_Authors: Array<Paper_Has_Author> = [];
-    Other_Contributors: Array<Paper_Has_Author> = [];
+    Lead_Authors: Array<number> = new Array<number>();
+    Other_Contributors: Array<number> = new Array<number>();
 
     Data: string = "";
 
     constructor(){
-
     }
 }
 
@@ -86,20 +74,61 @@ export function Parse_Paper_File(raw_Buffer: string): Paper | null{
         let Lead_Author = Authors_Array[0];
         let Other_Contributors = Authors_Array.slice(1);
     
-        Result.Lead_Authors.push(new Paper_Has_Author(Result.ID, Find_Author(Lead_Author)?.ID!));
-        Result.Other_Contributors = Other_Contributors.map((author) => new Paper_Has_Author(Result.ID, Find_Author(author)?.ID!));
+        Result.Lead_Authors.push(Find_Author(Lead_Author)?.ID!);
+        Result.Other_Contributors = Other_Contributors.map((author) => Find_Author(author)?.ID!);
     }
     else{
         Logger.Log("Failed to find author(s) in paper: " + Result.ID + "\n")
     }
 
+    // Now we need to extract the Title.
+    let Title_Rgx = /Title: .+/g;
+    let Title = Title_Rgx.exec(Header);
+
+    if (Title != null){
+        Result.Title = Title[0].substring(7);
+    }
+    else{
+        Logger.Log("Failed to find title in paper: " + Result.ID + "\n")
+    }
+
+    // Now we need tro extract the link that the paper links to
+    let Link_Rgx = /Link: .+/g;
+    let Link = Link_Rgx.exec(Header);
+
+    if (Link != null){
+        Result.Location = Link[0].substring(6);
+    }
+    else{
+        Logger.Log("Notice: paper: '" + Result.Title + "' did not contain link to other instances.\n")
+    }
+
+    // check if the Paper in question has an ID
+    let ID_Rgx = /ID: .+/g;
+    let ID = ID_Rgx.exec(Header);
+
+    if (ID != null){
+        Result.ID = parseInt(ID[0].substring(4));
+    }
+    else{
+        // The ID could also have been written as "SCP: ..."
+        let SCP_Rgx = /SCP: .+/g;
+        let SCP_ID = SCP_Rgx.exec(Header);
+
+        if (SCP_ID != null){
+            Result.ID = parseInt(SCP_ID[0].substring(5));
+
+            Preserve(Instance.PAPER, Result.ID);
+        }
+
+        Result.ID = Allocate(Instance.PAPER);
+    }
+
     return Result;
 }
 
-// Extract the date and location the paper refers to.
-export function Extract_Date_And_Location(paper: Paper){
-
-    // First try to get the needed information from the headers.
+export function Find_Paper_By_ID(ID: number): Paper | null{
+    var 
 
 
 }

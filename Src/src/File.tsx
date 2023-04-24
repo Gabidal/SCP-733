@@ -23,3 +23,23 @@ export function Get_File(File_Name: string): string | null{
 
     return Result;
 }
+
+export function Update_File(File_Name: string, Buffer: string){
+    // opens file and puts the data in.
+    fs.writeFileSync(File_Name, Buffer);
+}
+
+// Takes an lambda as an parameter and computes it for all the files inside a dir.
+export function Do_For_Files(Dir: string, fx: ((dir: string, file: string) => {})){
+
+    // Open the folder
+    const dir = fs.opendirSync(Dir);
+
+    // Read all the files
+    let dirent;
+    while ((dirent = dir.readSync()) !== null) {
+        if (dirent.isFile()){
+            fx(Dir, dirent.name);
+        }
+    }
+}
