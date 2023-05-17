@@ -75,6 +75,62 @@ Person A: "Initiate 3D scan of the surrounding area."
 PCI-Lite: "Will do... Here are the results Sir."
 Person A: "Transfer the rendered environment to the analytical unit and crunch some structural analysis."
 
+After some tome...
 
+PCI-Lite: "Calculations complete, would you like the results shown?"
+Person A: "Yes."
+
+A low-resolution picture starts rendering into the giant wall from the projector.
+
+Person A: "PCI, what is the probability to get another probe out there?"
+PCI-Lite: "0.2%"
+Person A: "Good enough. PCI, start rendering the most optimal structure to get the most mass up to there."
+PCI-Lite: "Yes, Sir!"
+
+Date: 1950 14'th of july, Chicago, basement
+Time: 04:00 AM
+
+PCI-Lite: "Launching in 3, 2, 1, and liftoff!"
+PCI-Lite: "Parameters nomal, entering max-Q in 3, 2, 1, and max-Q!"
+Person A: "How close are we to the schedule?"
+PCI-Lite: "This run is almost 99% identical to the 1949 run."
+
+Date: 1950 20'th of july
+Time: 02:28 AM
+
+Person A: "Are there?"
+PCI-Lite: "Almost there Sir."
+
+Time: 02:29:50 AM
+
+PCI-Lite: "Entering the jump in 3, 2, 1...."
+Person A: "What happened?"
+PCI-Lite: "Sir, maybe the last try was the last."
+Person A: "No, something this big can't just vanish, the fluctuations would have been noticed, all through the globe. Continue the same trajectory."
+PCI-Lite: "Yes Sir!"
+
+Date: 1950 22'th of july
+Time: 10:45 AM
+
+Person A opens the door to his apartment and starts to brew coffee and proceeds to open his newspaper when the alarms goes off.
+Person A: "PCI! What is it?"
+PCI-Lite: "Sir, we have made it! Although the location seems to be different from the first launch."
+Person A: "What do you mean different?"
+PCI-Lite: "The location is 1.2 light years from the original location."
+PCI-Lite: "There is also this really radioactive point nearby do you want me to analyze it?"
+Person A: "Please do."
+PCI-Lite: "Analyzing..."
+PCI-Lite: "Sir, i think you should take a look at this."
+
+When Person A takes a look at the rendered picture his mug drops of his hand.
+PCI-Lite: "Sir, is everything alright?"
+Person A: "That's a fucking thing, like a living living thing!"
+Person A: "How is it possible to hold it's structure with it's size. PCI analyze."
+PCI-Lite: "The structure in question seems to be..."
+
+The PC Interface goes dark, and then words can be heard from the speakers that the PCI Uses.
+At first the voice speaks in an inaudible language, but slowly little by little person A starts to understand.
+
+Voice: "You are somewhere where don't belong to, little one. You don't seem to belong to the nearby star constructs, where you are from i sense a great amount of pain and Agony."
 
 
