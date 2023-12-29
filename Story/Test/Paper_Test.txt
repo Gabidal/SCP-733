@@ -1,6 +1,10 @@
 Average Joe, Andy common
 Title: Test Paper
-Link: Planet Earth
-01.01.2001
+Links: Planet Earth, something
+Date: 01.01.2001
 
+Abstract:
+blah blah blah....
+
+Contents:
 Lorem Lipsum...

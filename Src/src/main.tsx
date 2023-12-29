@@ -1,24 +1,30 @@
 import React from 'react';
 import './style.css';
 import Abstract from './abstract';
+import Terminal from './Terminal';
+import File from './File';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 // This enum describes what page (state) is rendered into the DOM.
 const Values = {
-    MAIN: 0,
+    TERMINAL: 0,
     ABSTRACT: 1,
+    FILE: 2,
 }
 
 export default function SCP() {
-    const [Page, Set_Page] = React.useState(Values.MAIN);
+    const [Page, Set_Page] = React.useState(Values.TERMINAL);
 
     var Content
 
-    if (Page === Values.MAIN) {
-        Content = <Main/>
+    if (Page === Values.TERMINAL) {
+        Content = <Terminal/>
     }
     else if (Page === Values.ABSTRACT) {
         Content = <Abstract/>
+    }
+    else if (Page === Values.FILE) {
+        Content = <File/>
     }
 
     return (
@@ -27,8 +33,8 @@ export default function SCP() {
                 <div className="SCP-SideMenu">
                     <div className="SCP-SideMenu-Item">
                         <button 
-                            onClick={() => Set_Page(Values.MAIN)}
-                            className={Get_Button_Activation_Class(Page, Values.MAIN)}
+                            onClick={() => Set_Page(Values.TERMINAL)}
+                            className={Get_Button_Activation_Class(Page, Values.TERMINAL)}
                         >
                             Terminal
                         </button>
@@ -38,6 +44,12 @@ export default function SCP() {
                         >
                             Abstract
                         </button>
+                        <button
+                            onClick={() => Set_Page(Values.FILE)}
+                            className={Get_Button_Activation_Class(Page, Values.FILE)}
+                        >
+                            File
+                        </button>
                     </div>
                 </div>
 
@@ -45,56 +57,6 @@ export default function SCP() {
             </div>
         </div>
     );
-}
-
-function Terminal(Input: any){
-    return Input
-}
-
-// Contains a vertical side menu bar, and the rest is a terminal window
-function Main(){
-    const [Input_Text, Set_Input_Text] = React.useState("");
-    const [Paragraph_Text, Set_Paragraph_Text] = React.useState("");
-
-    function Handle_Input(e: React.ChangeEvent<HTMLInputElement>) {
-        Set_Input_Text(e.target.value);
-    }
-
-    async function handleKeyDown(e: React.KeyboardEvent<HTMLInputElement>) {
-        if (e.key === "Enter") {
-            if (Input_Text.length <= 0){
-                return
-            }
-
-            var elem = document.getElementById('PARAGRAPH')!;
-            elem.scrollTo({top: elem.scrollHeight});
-
-            const Input_Text_With_New_Line = "\n" + Terminal(Input_Text)
-            
-            // flush input field
-            Set_Input_Text("");
-            
-            Set_Paragraph_Text(Paragraph_Text + Post_Process_text(Input_Text_With_New_Line))
-        }
-    }
-
-    return (
-        <div className="SCP-Terminal">
-            <div className="SCP-Terminal-Content">
-            <p id='PARAGRAPH' dangerouslySetInnerHTML={{ __html: Paragraph_Text }}></p>
-            </div>
-
-            <div className="SCP-Terminal-Input">
-                <input 
-                type="text"
-                value={Input_Text}
-                onChange={Handle_Input}
-                onKeyDown={handleKeyDown} 
-                autoFocus
-                />
-            </div>
-        </div>
-    )
 }
 
 function Get_Button_Activation_Class(Page: number, prefer: number){
@@ -106,7 +68,7 @@ function Get_Button_Activation_Class(Page: number, prefer: number){
     }
 }
 
-function Post_Process_text(inputText: string) {
+export function Post_Process_text(inputText: string) {
     const crossedOutWords = ['bad', 'wrong'];
     const underlinedWords = ['good', 'right'];
     const linkedWords = {
